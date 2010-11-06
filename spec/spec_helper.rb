@@ -1,4 +1,5 @@
 require 'haphazard'
+require 'acts_as_fu'
 require 'rspec'
 
 # Requires supporting files with custom matchers and macros, etc,
@@ -6,5 +7,5 @@ require 'rspec'
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each {|f| require f}
 
 RSpec.configure do |config|
-  
+  config.include ActsAsFu
 end

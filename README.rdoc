@@ -1,6 +1,6 @@
 = haphazard
 
-Description goes here.
+adds a random() method to your activerecord models. respects where conditions and joins.
 
 == Contributing to haphazard
  
