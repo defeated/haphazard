@@ -16,16 +16,7 @@ Jeweler::Tasks.new do |gem|
   gem.description = "adds a random() method to your activerecord models. respects where conditions and joins."
   gem.email       = "defeated2k4@gmail.com"
   gem.homepage    = "http://github.com/defeated/haphazard"
-  gem.authors     = ["eddie cianci"]
-  
-  gem.add_runtime_dependency 'activerecord', '~> 3.0'
-
-  gem.add_development_dependency "rspec", "~> 2.0.0"
-  gem.add_development_dependency "bundler", "~> 1.0.0"
-  gem.add_development_dependency "jeweler", "~> 1.5.0.pre5"
-  gem.add_development_dependency "rcov", ">= 0"
-  gem.add_development_dependency "acts_as_fu"
-  
+  gem.authors     = ["eddie cianci"]  
 end
 Jeweler::RubygemsDotOrgTasks.new
 
