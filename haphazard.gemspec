@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "haphazard.gemspec",
     "lib/haphazard.rb",
     "spec/haphazard_spec.rb",
     "spec/spec_helper.rb"
